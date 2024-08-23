@@ -18,7 +18,17 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "components/*": ["src/components/*"],
+      "interfaces/*": ["src/interfaces/*"],
+      "assets/*": ["src/assets/*"],
+      "store/*": ["src/store/*"],
+      "context/*": ["src/context/*"],
+      "utils/*": ["src/utils/*"],
+      "hooks/*": ["src/hooks/*"],
+      "types/*": ["src/types/*"]
+    }
   },
   "include": ["src"]
 }

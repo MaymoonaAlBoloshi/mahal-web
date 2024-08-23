@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   daisyui: {
-    themes: ['wireframe'],
+    themes: ['wireframe', 'dark'],
     darkTheme: 'dark',
     base: true,
     styled: true,
