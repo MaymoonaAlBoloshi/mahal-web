@@ -7,11 +7,11 @@ const Route = createRootRoute({
     const { theme } = useThemeStore()
     return (
       <>
-        <div data-theme={theme} className="drawer h-screen">
+        <div data-theme={theme} className="drawer h-screen overflow-scroll">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col">
             <Header />
-            <main>
+            <main className="p-4 overflow-scroll h-full">
               <Outlet />
             </main>
           </div>
