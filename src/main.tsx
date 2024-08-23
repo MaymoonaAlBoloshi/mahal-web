@@ -3,8 +3,12 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App data-theme="wireframe" />
-  </StrictMode>
-)
+const Root = () => {
+    return (
+        <StrictMode>
+            <App />
+        </StrictMode>
+    )
+}
+
+createRoot(document.getElementById('root')!).render(<Root />)
